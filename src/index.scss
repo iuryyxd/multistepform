@@ -1,0 +1,51 @@
+:root {
+  // Primary colors
+
+  --marine-blue: hsl(213, 96%, 18%); //	#02295a
+  --purplish-blue: hsl(243, 100%, 62%); // #473dff
+  --pastel-blue: hsl(228, 100%, 84%); // #adbeff
+  --light-blue: hsl(206, 94%, 87%); // #bfe2fd
+  --strawberry-red: hsl(354, 84%, 57%); // #ed3548
+
+  // Neutral colors
+
+  --cool-gray: hsl(231, 11%, 63%); // #9699ab
+  --light-gray: hsl(229, 24%, 87%); // #d6d9e6
+  --magnolia: hsl(217, 100%, 97%); // #f0f6ff
+  --alabaster: hsl(231, 100%, 99%); // #fafbff
+  --white: hsl(0, 0%, 100%); // #ffffff
+
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  color: #9699ab;
+}

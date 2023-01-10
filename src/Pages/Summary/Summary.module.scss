@@ -1,0 +1,121 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 41px;
+
+    h1 {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 37px;
+      color: #02295a;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      color: #9699ab;
+    }
+  }
+
+  &__main {
+    .main__header {
+      width: 100%;
+      padding: 18px 20px 23px 22px;
+
+      background: #eff0fa;
+      border-radius: 9px;
+      margin-bottom: 31px;
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #9699ab;
+
+        div {
+          h1 {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18px;
+            color: #02295a;
+          }
+
+          button {
+            background: none;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            text-decoration-line: underline;
+            color: #9699ab;
+            transition: 0.2s all ease-in-out;
+
+            &:hover {
+              color: #473dff;
+            }
+          }
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 18px;
+          color: #02295a;
+        }
+      }
+
+      .main__addons {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        div {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #9699ab;
+          }
+
+          span {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #02295a;
+          }
+        }
+      }
+    }
+
+    .main__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #9699ab;
+      }
+
+      span {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #473dff;
+      }
+    }
+  }
+}

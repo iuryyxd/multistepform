@@ -1,0 +1,17 @@
+.wrapper__main {
+  display: flex;
+  flex-direction: column;
+  padding: 52px 0 29px 0;
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+@media screen and (max-width: 425px) {
+
+  .wrapper__main {
+    width: 100%;
+    padding: 0 16px;
+  }
+
+}
