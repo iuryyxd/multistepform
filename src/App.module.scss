@@ -22,7 +22,16 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1065px) {
+  .app {
+    &__wrapper {
+      width: 90%;
+      gap: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
   .app {
     &__wrapper {
       flex-direction: column;
